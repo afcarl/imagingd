@@ -8,7 +8,7 @@ def render_from_file(filename):
 def render_from_json(json):
     network = Network(json)
     graph = new_graph(network)
-    render(graph, 18, (200, 200), "graph.png")
+    render(graph, 18, (200, 200), 'graph.png')
 
 def graph_from_network(network):
   graph = Graph()
