@@ -29,7 +29,9 @@ setup(
           'imagingd = imaging:main'
         ]
     },
-    install_requires=[],
+    install_requires=[
+        'graph_tool'
+    ],
     keywords=['bioinformatics', 'graph', 'network', 'cytoscape'],
     classifiers=[
         'Intended Audience :: Science/Research',
